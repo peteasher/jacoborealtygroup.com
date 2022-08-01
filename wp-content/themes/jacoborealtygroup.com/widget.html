@@ -1,0 +1,109 @@
+<?php get_header(); ?>
+<!-- slideshow -->
+<section class="hp-slideshow">
+    <div class="region-slideshow-container">
+        <h2 class="hidden">Slideshow</h2>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Slideshow") ) : ?>
+        <?php endif ?>
+    </div>
+</section>
+<!-- slideshow end -->
+<!-- quick-search -->
+<section class="hp-quick-search">
+    <div class="region-quick-search-container">
+        <div class="quick-search-form">
+            <div class="primary-qs-item site-title">
+                <h3>Quick</h3>
+                <h2>Search</h2>
+            </div>
+            <div class="secondary-qs-item">
+                <select aria-label="qs-fields">
+                    <option value="SFR,CND">House / Condo</option>
+                    <option value="SFR">House Only</option>
+                    <option value="CND">Condo Only</option>
+                    <option value="RI">Multi-Family</option>
+                    <option value="COM">Commercial</option>
+                    <option value="LL">Lots / Land</option>
+                    <option value="RI">Multi-Unit Residential</option>
+                    <option value="MH">Mobile Home</option>
+                    <option value="RNT">Rental</option>
+                    <option value="FRM">Farms</option>
+                </select>
+            </div>
+            <div class="tertiary-qs-item">
+                <input type="text" placeholder="City or Zip" aria-label="qs-fields" />
+            </div>
+            <div class="fourth-qs-item">
+                <select aria-label="qs-fields">
+                    <option value="">Beds</option>
+                    <option value="1">1+</option>
+                    <option value="2">2+</option>
+                    <option value="3">3+</option>
+                    <option value="4">4+</option>
+                    <option value="5">5+</option>
+                </select>
+            </div>
+            <div class="fifth-qs-item">
+                <select aria-label="qs-fields">
+                    <option value="">Baths</option>
+                    <option value="1">1+</option>
+                    <option value="2">2+</option>
+                    <option value="3">3+</option>
+                    <option value="4">4+</option>
+                    <option value="5">5+</option>
+                </select>
+            </div>
+            <div class="sixth-qs-item">
+                <input type="text" placeholder="Min. Price" aria-label="qs-fields" />
+            </div>
+            <div class="seventh-qs-item">
+                <input type="text" placeholder="Max. Price" aria-label="qs-fields" />
+            </div>
+            <div class="eighth-qs-item">
+                <div class="qs-search"> <input type="submit" value="Search" aria-label="qs-submit" /> </div>
+            </div>
+            <div class="ninth-qs-item">
+                <div class="qs-advanced"> <a href="[blogurl]" aria-label="qs-btn"> <span>Advanced</span> </a> </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- quick-search end -->
+<!-- properties -->
+<section class="hp-properties">
+    <div class="region-properties-container">
+    </div>
+</section>
+<!-- properties end -->
+<div class="hp-sidebar">
+    <div id="scroll-down">
+        <ul class="aios-section-nav"></ul>
+        <ul class="comp-social-sidebar">
+            <li class="side-smi"> <a href="[ai_client_facebook]" target="_blank" aria-label="facebook"> <span
+                        class="ai-font-facebook"></span> </a> </li>
+            <li class="side-smi"> <a href="[ai_client_linkedin]" target="_blank" aria-label="linkedin"> <span
+                        class="ai-font-linkedin"></span> </a> </li>
+            <li class="side-smi"> <a href="[ai_client_instagram]" target="_blank" aria-label="instagram"> <span
+                        class="ai-font-instagram"></span> </a> </li>
+            <li class="side-smi">
+                <div class="phone">
+                    <?php echo do_shortcode('[ai_phone href="+1.407.415.9484"]
+                            <span class="ai-font-phone">
+                                <span class="font-zero">phone</span>
+                            </span>
+                            [/ai_phone]')?>
+                </div>
+            </li>
+            <li class="side-smi">
+                <div class="email">
+                    <?php echo do_shortcode('[mail_to email="sellingwithstacy@gmail.com"]
+                        <span class="ai-font-envelope-o">
+                            <span class="font-zero">email</span>
+                        </span>
+                        [/mail_to]')?>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<?php get_footer(); ?>
