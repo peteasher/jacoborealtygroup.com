@@ -10,23 +10,26 @@
 </section>
 <!-- slideshow end -->
 <div class="hp-welcome-quick-search">
+  <div class="site-bg site-rgba">
+    <canvas class="lazyload" width="1600px" height="1154px"
+      data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/welcome-bg.jpg"></canvas>
+  </div>
   <!-- quick-search -->
   <section class="hp-quick-search">
     <div class="region-quick-search-container">
-      <div class="site-bg 
-    
-
-      site-rgba
-    
-
-    ">
+      <div class="site-bg site-rgba">
         <canvas class="lazyload" width="1369px" height="230px"
           data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/quick-search-bg.jpg"></canvas>
       </div>
       <div class="quick-search-form">
         <div class="qs-item site-title">
-          <h3>Quick</h3>
-          <h2>Search</h2>
+          <div class="site-title-number">
+            01
+          </div>
+          <div class="site-title-holder">
+            <h3>Quick</h3>
+            <h2>Search</h2>
+          </div>
         </div>
         <div class="qs-item">
           <select aria-label="qs-fields">
@@ -79,10 +82,14 @@
           <input type="text" placeholder="Max $" aria-label="qs-fields" />
         </div>
         <div class="qs-item">
-          <div class="site-btn-primary qs-btn"> <input type="submit" value="Search +" aria-label="qs-submit" /> </div>
+          <div class="site-btn qs-btn">
+            <input type="submit" value="Search +" aria-label="qs-search" />
+          </div>
         </div>
         <div class="qs-item">
-          <a href="[blogurl]" class="site-btn-primary" aria-label="qs-btn"> Advanced </a>
+          <div class="site-btn qs-btn">
+            <input type="submit" value="Advanced +" aria-label="qs-submit" />
+          </div>
         </div>
       </div>
     </div>
@@ -91,20 +98,24 @@
   <!-- welcome -->
   <section class="hp-welcome">
     <div class="region-welcome-container">
-      <div class="site-bg site-rgba">
-        <canvas class="lazyload" width="1600px" height="1154px"
-          data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/welcome-bg.jpg"></canvas>
-      </div>
       <div class="welcome-primary-section">
-        <img alt="agent" class="img-responsive"
-          src="<?php echo get_stylesheet_directory_uri() ?>/images/welcome-agent.png" />
+        <div class="canvas-wrapper">
+          <canvas width="580" height="827"></canvas>
+          <img alt="agent" class="img-responsive canvas-img"
+            src="<?php echo get_stylesheet_directory_uri() ?>/images/welcome-agent.png" />
+          <div class="welcome-img-overlay">
+            <img alt="agent" class="img-responsive canvas-img"
+              src="<?php echo get_stylesheet_directory_uri() ?>/images/welcome-agent-overlay.png" />
+          </div>
+        </div>
       </div>
       <div class="welcome-secondary-section">
         <div class="site-title">
           <h3>Meet</h3>
           <h2>Michael Jacobo</h2>
         </div>
-        <p class="first-p">Michael Jacobo is the owner of the Jacobo Realty Group with Berkshire Hathaway Home Services. Michael has
+        <p class="first-p">Michael Jacobo is the owner of the Jacobo Realty Group with Berkshire Hathaway Home Services.
+          Michael has
           continuously ranked among the top 1.5% of all Realtors nationwide and top 100 within the company. This is a
           tremendous honor considering Berkshire Hathaway Home Services employs over 60,000 agents.
         </p>
@@ -163,8 +174,8 @@
         <div class="team-content">
           <em>Michele Hannemann</em>
           <p>Sales Assciate</p>
-        </div>   
-         <div class="team-content-hover">
+        </div>
+        <div class="team-content-hover">
           <span>Read More +</span>
         </div>
       </a>
@@ -328,8 +339,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-2.jpg">
           <em>Carlsbad</em>
-           <em class="hover-title">Carlsbad</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Carlsbad</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -339,8 +350,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-3.jpg">
           <em>Encinitas</em>
-           <em class="hover-title">Encinitas</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Encinitas</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -350,8 +361,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-4.jpg">
           <em>Solana Beach</em>
-           <em class="hover-title">Solana Beach</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Solana Beach</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -361,8 +372,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-5.jpg">
           <em> Del Mar</em>
-           <em class="hover-title"> Del Mar</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title"> Del Mar</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -372,8 +383,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-6.jpg">
           <em>Vista</em>
-           <em class="hover-title">Vista</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Vista</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -383,8 +394,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-7.jpg">
           <em>Oceanside</em>
-           <em class="hover-title">Oceanside</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Oceanside</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -394,8 +405,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-8.jpg">
           <em>Escondido</em>
-           <em class="hover-title">Escondido</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Escondido</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -405,8 +416,8 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-9.jpg">
           <em>Cardiff</em>
-           <em class="hover-title">Cardiff</em>
-              <div class="communities-btn-hover">
+          <em class="hover-title">Cardiff</em>
+          <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
         </div>
@@ -466,7 +477,8 @@
     </div>
     <div class="testimonials-slick">
       <div class="testimonials-content">
-        <p class="first-p">Michael was a fantastic agent to work with. We are relocating to the San Diego area from northern California
+        <p class="first-p">Michael was a fantastic agent to work with. We are relocating to the San Diego area from
+          northern California
           and didn't know much about the area. Michael was very knowledgeable about the market and the areas of
           San Diego that we were interested in moving to.
         </p>
@@ -478,7 +490,8 @@
         <h3> Chip Hooley</h3>
       </div>
       <div class="testimonials-content">
-        <p class="first-p">Michael was a fantastic agent to work with. We are relocating to the San Diego area from northern California
+        <p class="first-p">Michael was a fantastic agent to work with. We are relocating to the San Diego area from
+          northern California
           and didn't know much about the area. Michael was very knowledgeable about the market and the areas of
           San Diego that we were interested in moving to.
         </p>
@@ -504,13 +517,13 @@
   <div class="region-social-container">
     <div class="social-primary-section">
       <div class="site-title">
-          <h3>Follow Us On</h3>
-          <h2>Social Media</h2>
+        <h3>Follow Us On</h3>
+        <h2>Social Media</h2>
       </div>
       <div class="social-title">
         <div class="title">
-        <h3>Check Us On</h3>
-        <h2>Facebook</h2>
+          <h3>Check Us On</h3>
+          <h2>Facebook</h2>
         </div>
         <span>@jacoborealty </span>
       </div>
@@ -571,9 +584,10 @@
         </a>
       </div>
       <a href="[blogurl]" class="site-btn" aria-label="Like Us On Facebook">Like Us On Facebook +</a>
-    </div>  
+    </div>
     <div class="social-secondary-section">
-      <p class="social-p">Follow us on social media for the most exclusive real estate news and photos from our amazing listings</p>
+      <p class="social-p">Follow us on social media for the most exclusive real estate news and photos from our amazing
+        listings</p>
       <div class="social-title">
         <div class="title">
           <h3>Check Us On</h3>
@@ -639,8 +653,75 @@
       </div>
       <a href="[blogurl]" class="site-btn" aria-label="Like Us On Instagram">Follow Us On Instagram +</a>
     </div>
+    <div class="social-gallery-image-container">
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-1.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-2.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-3.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-4.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-5.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-6.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-7.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-8.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+      <a href="[blogurl]" aria-label="social-image" class="social-image">
+        <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+            class="canvas-img img-responsive lazyload"
+            src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-9.jpg">
+          <span class="ai-font-instagram"></span>
+        </div>
+      </a>
+    </div>
+    <a href="[blogurl]" class="site-btn" aria-label="Like Us On Instagram">Like Us On Instagram +</a>
   </div>
-</div>
+  </div>
+  </div>
 </section>
 <!-- social end -->
 <!-- contact -->

@@ -11,153 +11,88 @@
   /*#endregion Global */
 
   /*#region Slideshow Region */
-
-  .hp-slideshow {
-    padding:
-      30px 24px 30px 24px;
-  }
-
-
-
-
-
-
-
-
   /*#endregion Slideshow Region */
 
-
   /*#region Quick Search Region */
-
-  .hp-quick-search {
-    padding:
-      50px 54px 50px 54px;
-  }
-
   .region-quick-search-container {
-    display: grid;
     max-width: 1369px;
-    grid-template-columns: repeat(100, 1fr);
     margin: 0 auto;
+    position: relative;
   }
-
-
-
-
-
-
-
-
   .quick-search-form {
     display: grid;
     grid-template-columns: repeat(100, 1fr);
-    max-width: 1180px;
+    max-width: 1263px;
+    grid-template-rows: 1fr 1fr;
     margin: 0 auto;
     gap: 2px;
-    align-items: center;
+    align-items: end;
   }
 
   .qs-item:nth-child(1) {
     grid-column: 1/14;
+    grid-row: 1/-1;
   }
 
   .qs-item:nth-child(2) {
-    grid-column: 15/30;
+    grid-column: 30/64;
   }
 
   .qs-item:nth-child(3) {
-    grid-column: 30/44;
+    grid-column: 64/-1;
   }
 
   .qs-item:nth-child(4) {
-    grid-column: 44/52;
+    grid-column: 30/41;
   }
 
   .qs-item:nth-child(5) {
-    grid-column: 52/60;
+    grid-column: 41/52;
   }
 
   .qs-item:nth-child(6) {
-    grid-column: 60/68;
+    grid-column: 52/64;
   }
 
   .qs-item:nth-child(7) {
-    grid-column: 68/76;
+    grid-column: 64/75;
   }
 
   .qs-item:nth-child(8) {
-    grid-column: 77/89;
+    grid-column: 75/88;
   }
 
   .qs-item:nth-child(9) {
-    grid-column: 89/-1;
+    grid-column: 88/-1;
   }
-
-
-
-
-
-
-
-
-
 
   /*#endregion Quick Search Region */
 
-
   /*#region Welcome Region */
-
-  .hp-welcome {
-    padding:
-      52px 24px 0px 24px;
-  }
-
   .region-welcome-container {
     display: grid;
-    max-width: 1370px;
+    max-width: 1371px;
     grid-template-columns: repeat(100, 1fr);
     margin: 0 auto;
   }
-
-
-
-
-
-
-
-
   .region-welcome-container {
     display: grid;
     max-width: 1312px;
     grid-template-columns: repeat(100, 1fr);
     margin: 0 auto;
   }
-
   .welcome-primary-section {
-    grid-column: 9/50;
+    grid-column: 3/47;
   }
-
   .welcome-secondary-section {
-    grid-column: 56/-1;
+    grid-column: 52/-1;
   }
-
-
-
-
-
-
-
-
-
-
   /*#endregion Welcome Region */
-
 
   /*#region Team Region */
 
   .hp-team {
-    padding:
-      131px 24px 0px 24px;
+    padding: 131px 24px 0px 24px;
   }
 
   .region-team-container {
@@ -165,76 +100,29 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*#endregion Team Region */
-
 
   /*#region Properties Region */
 
   .hp-properties {
-    padding:
-      307px 24px 160px 24px;
+    padding: 307px 24px 160px 24px;
   }
-
   .region-properties-container {
     max-width: 1442px;
     margin: 0 auto;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*#endregion Properties Region */
-
 
   /*#region Communities Region */
 
   .hp-communities {
-    padding:
-      30px 24px 30px 24px;
+    padding: 30px 24px 30px 24px;
   }
 
   .region-communities-container {
     max-width: 1410px;
     margin: 0 auto;
   }
-
-
-
-
-
-
-
 
   .communities-gallery-image-container {
     display: grid;
@@ -245,23 +133,12 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
   /*#endregion Communities Region */
-
 
   /*#region Videos Region */
 
   .hp-videos {
-    padding:
-      62px 0px 110px 0px;
+    padding: 62px 0px 110px 0px;
   }
 
   .region-videos-container {
@@ -269,31 +146,12 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*#endregion Videos Region */
-
 
   /*#region Testimonial Region */
 
   .hp-testimonials {
-    padding:
-      106px 24px 113px 24px;
+    padding: 106px 24px 113px 24px;
   }
 
   .region-testimonials-container {
@@ -301,45 +159,18 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*#endregion Testimonial Region */
-
 
   /*#region Social Region */
 
   .hp-social {
-    padding:
-      0px 24px 140px 24px;
+    padding: 0px 24px 140px 24px;
   }
 
   .region-social-container {
     max-width: 1302px;
     margin: 0 auto;
   }
-
-
-
-
-
-
-
-
 
   .social-gallery-image-container {
     display: grid;
@@ -350,17 +181,6 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
   .social-gallery-image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -370,22 +190,12 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
   /*#endregion Social Region */
-
 
   /*#region Contact Region */
 
   .hp-contact {
-    padding:
-      0px 24px 70px 24px;
+    padding: 0px 24px 70px 24px;
   }
 
   .region-contact-container {
@@ -393,24 +203,7 @@
     margin: 0 auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*#endregion Contact Region */
-
 
   /*#region Footer */
   /*#endregion Footer */
@@ -427,52 +220,41 @@
 
   /*#endregion Slideshow Region */
 
-
   /*#region Quick Search Region */
 
   /*#endregion Quick Search Region */
-
 
   /*#region Welcome Region */
 
   /*#endregion Welcome Region */
 
-
   /*#region Team Region */
 
   /*#endregion Team Region */
-
 
   /*#region Properties Region */
 
   /*#endregion Properties Region */
 
-
   /*#region Communities Region */
 
   /*#endregion Communities Region */
-
 
   /*#region Videos Region */
 
   /*#endregion Videos Region */
 
-
   /*#region Testimonial Region */
 
   /*#endregion Testimonial Region */
-
 
   /*#region Social Region */
 
   /*#endregion Social Region */
 
-
   /*#region Contact Region */
 
   /*#endregion Contact Region */
-
-
 
   /*#region Footer */
   /*#endregion Footer */
@@ -488,59 +270,47 @@
 
   /*#endregion Slideshow Region */
 
-
   /*#region Quick Search Region */
 
   /*#endregion Quick Search Region */
-
 
   /*#region Welcome Region */
 
   /*#endregion Welcome Region */
 
-
   /*#region Team Region */
 
   /*#endregion Team Region */
-
 
   /*#region Properties Region */
 
   /*#endregion Properties Region */
 
-
   /*#region Communities Region */
 
   /*#endregion Communities Region */
-
 
   /*#region Videos Region */
 
   /*#endregion Videos Region */
 
-
   /*#region Testimonial Region */
 
   /*#endregion Testimonial Region */
-
 
   /*#region Social Region */
 
   /*#endregion Social Region */
 
-
   /*#region Contact Region */
 
   /*#endregion Contact Region */
-
 
   /*#region Footer */
   /*#endregion Footer */
   /*#region Fixed smi */
   /*#endregion Fixed smi */
 }
-
-
 
 @media only screen and (max-width: 1199px) {
   /*#region Global */
@@ -550,52 +320,41 @@
 
   /*#endregion Slideshow Region */
 
-
   /*#region Quick Search Region */
 
   /*#endregion Quick Search Region */
-
 
   /*#region Welcome Region */
 
   /*#endregion Welcome Region */
 
-
   /*#region Team Region */
 
   /*#endregion Team Region */
-
 
   /*#region Properties Region */
 
   /*#endregion Properties Region */
 
-
   /*#region Communities Region */
 
   /*#endregion Communities Region */
-
 
   /*#region Videos Region */
 
   /*#endregion Videos Region */
 
-
   /*#region Testimonial Region */
 
   /*#endregion Testimonial Region */
-
 
   /*#region Social Region */
 
   /*#endregion Social Region */
 
-
   /*#region Contact Region */
 
   /*#endregion Contact Region */
-
-
 
   /*#region Footer */
   /*#endregion Footer */
@@ -606,7 +365,6 @@
 /* iPad(portrait) | Galaxy Tab 4(portrait) */
 
 @media only screen and (max-width: 991px) {
-
   body.is-open {
     overflow: auto;
   }
@@ -690,7 +448,6 @@
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */
 
 @media only screen and (max-width: 767px) {
-
   /* 481 */
   .ip-banner .container {
     width: 100%;
