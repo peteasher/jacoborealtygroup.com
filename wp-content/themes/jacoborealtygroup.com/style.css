@@ -777,6 +777,7 @@ ul.aios-split-nav.nav.header-item {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding-top: 50px;
 }
 
 .team-slick-arrow span {
