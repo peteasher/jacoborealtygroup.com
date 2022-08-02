@@ -91,13 +91,7 @@
   <!-- welcome -->
   <section class="hp-welcome">
     <div class="region-welcome-container">
-      <div class="site-bg 
-    
-
-      site-rgba
-    
-
-    ">
+      <div class="site-bg site-rgba">
         <canvas class="lazyload" width="1600px" height="1154px"
           data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/welcome-bg.jpg"></canvas>
       </div>
@@ -137,13 +131,7 @@
 <!-- team -->
 <section class="hp-team">
   <div class="region-team-container">
-    <div class="site-bg 
-    
-
-      site-rgba
-    
-
-    ">
+    <div class="site-bg site-rgba">
       <canvas class="lazyload" width="1001px" height="301px"
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/testimonials-bg-logo.jpg"></canvas>
     </div>
@@ -154,7 +142,7 @@
     <div class="team-slick">
       <a href="[blogurl]" aria-label="team" class="team-item">
         <div class="team-img canvas-wrapper">
-          <canvas width="407" height="376"></canvas>
+          <canvas width="376" height="407"></canvas>
           <img alt="team" class="img-team canvas-img img-responsive lazyload"
             src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
         </div>
@@ -162,23 +150,32 @@
           <em>Kati Mendoza</em>
           <p>Agent / Realtor</p>
         </div>
+        <div class="team-content-hover">
+          <span>Read More +</span>
+        </div>
       </a>
       <a href="[blogurl]" aria-label="team" class="team-item">
         <div class="team-img canvas-wrapper">
-          <canvas width="407" height="376"></canvas>
+          <canvas width="376" height="407"></canvas>
           <img alt="team" class="img-team canvas-img img-responsive lazyload"
             src="<?php echo get_stylesheet_directory_uri() ?>/images/team-2.jpg" />
         </div>
         <div class="team-content">
           <em>Michele Hannemann</em>
           <p>Sales Assciate</p>
+        </div>   
+         <div class="team-content-hover">
+          <span>Read More +</span>
         </div>
       </a>
       <a href="[blogurl]" aria-label="team" class="team-item">
         <div class="team-img canvas-wrapper">
-          <canvas width="407" height="376"></canvas>
+          <canvas width="376" height="407"></canvas>
           <img alt="team" class="img-team canvas-img img-responsive lazyload"
             src="<?php echo get_stylesheet_directory_uri() ?>/images/team-3.jpg" />
+        </div>
+        <div class="team-content-hover">
+          <span>Read More +</span>
         </div>
         <div class="team-content">
           <em>Baris Yucelt</em>
@@ -187,13 +184,16 @@
       </a>
       <a href="[blogurl]" aria-label="team" class="team-item">
         <div class="team-img canvas-wrapper">
-          <canvas width="407" height="376"></canvas>
+          <canvas width="376" height="407"></canvas>
           <img alt="team" class="img-team canvas-img img-responsive lazyload"
             src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
         </div>
         <div class="team-content">
           <em>Kati Mendoza</em>
           <p>Agent / Realtor</p>
+        </div>
+        <div class="team-content-hover">
+          <span>Read More +</span>
         </div>
       </a>
     </div>
@@ -303,8 +303,6 @@
     
 
       site-rgba
-    
-
     ">
       <canvas class="lazyload" width="1600px" height="1169px"
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/communities-bg-1.jpg"></canvas>
@@ -318,35 +316,55 @@
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-1.jpg">
-          <em>EzekSayson</em>
+          <em>San Marcos</em>
+          <em class="hover-title">San Marcos</em>
+          <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-2.jpg">
-          <em>EzekSayson</em>
+          <em>Carlsbad</em>
+           <em class="hover-title">Carlsbad</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-3.jpg">
-          <em>EzekSayson</em>
+          <em>Encinitas</em>
+           <em class="hover-title">Encinitas</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-4.jpg">
-          <em>EzekSayson</em>
+          <em>Solana Beach</em>
+           <em class="hover-title">Solana Beach</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-5.jpg">
-          <em>EzekSayson</em>
+          <em> Del Mar</em>
+           <em class="hover-title"> Del Mar</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
@@ -354,6 +372,10 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-6.jpg">
           <em>EzekSayson</em>
+           <em class="hover-title">EzekSayson</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
@@ -361,6 +383,10 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-7.jpg">
           <em>EzekSayson</em>
+           <em class="hover-title">EzekSayson</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
@@ -368,6 +394,10 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-8.jpg">
           <em>EzekSayson</em>
+           <em class="hover-title">EzekSayson</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
@@ -375,6 +405,10 @@
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-9.jpg">
           <em>EzekSayson</em>
+           <em class="hover-title">EzekSayson</em>
+              <div class="communities-btn-hover">
+            <span>Explore +</span>
+          </div>
         </div>
       </a>
     </div>
@@ -444,7 +478,7 @@
         <h3> Chip Hooley</h3>
       </div>
       <div class="testimonials-content">
-        <p>Michael was a fantastic agent to work with. We are relocating to the San Diego area from northern California
+        <p class="first-p">Michael was a fantastic agent to work with. We are relocating to the San Diego area from northern California
           and didn't know much about the area. Michael was very knowledgeable about the market and the areas of
           San Diego that we were interested in moving to.
         </p>
@@ -458,7 +492,7 @@
     </div>
     <div class="testimonials-slick-arrow">
       <span class="ai-font-arrow-h-p prev"></span>
-      <a href="[blogurl]" class="site-btn" aria-label="VIEW ALL testimonials">View All Testimonials</a>
+      <a href="[blogurl]" class="site-btn" aria-label="VIEW ALL testimonials">View All Testimonials +</a>
       <span class="ai-font-arrow-h-n next"></span>
     </div>
 
