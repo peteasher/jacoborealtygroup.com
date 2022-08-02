@@ -371,8 +371,8 @@
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-6.jpg">
-          <em>EzekSayson</em>
-           <em class="hover-title">EzekSayson</em>
+          <em>Vista</em>
+           <em class="hover-title">Vista</em>
               <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
@@ -382,8 +382,8 @@
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-7.jpg">
-          <em>EzekSayson</em>
-           <em class="hover-title">EzekSayson</em>
+          <em>Oceanside</em>
+           <em class="hover-title">Oceanside</em>
               <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
@@ -393,8 +393,8 @@
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-8.jpg">
-          <em>EzekSayson</em>
-           <em class="hover-title">EzekSayson</em>
+          <em>Escondido</em>
+           <em class="hover-title">Escondido</em>
               <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
@@ -404,8 +404,8 @@
         <div class="communities-item canvas-wrapper"> <canvas width="440" height="344"></canvas> <img
             alt="communities-image" class="canvas-img img-responsive lazyload"
             src=" <?php echo get_stylesheet_directory_uri() ?>/images/communities-9.jpg">
-          <em>EzekSayson</em>
-           <em class="hover-title">EzekSayson</em>
+          <em>Cardiff</em>
+           <em class="hover-title">Cardiff</em>
               <div class="communities-btn-hover">
             <span>Explore +</span>
           </div>
@@ -502,11 +502,10 @@
 <!-- social -->
 <section class="hp-social">
   <div class="region-social-container">
-
     <div class="social-primary-section">
       <div class="site-title">
-        <h3>Follow Us On</h3>
-        <h2>Social Media</h2>
+          <h3>Follow Us On</h3>
+          <h2>Social Media</h2>
       </div>
       <div class="social-title">
         <div class="title">
@@ -520,146 +519,128 @@
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-1.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-2.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-3.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-4.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-5.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-6.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-7.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-8.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
         <a href="[blogurl]" aria-label="social-image" class="social-image">
           <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
               class="canvas-img img-responsive lazyload"
               src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-fb-9.jpg">
-            <span class="ai-font-instagram"></span>
           </div>
         </a>
       </div>
       <a href="[blogurl]" class="site-btn" aria-label="Like Us On Facebook">Like Us On Facebook +</a>
-    </div>
+    </div>  
     <div class="social-secondary-section">
-        <p class="social-p">Follow us on social media for the most exclusive real estate news and photos from our amazing listings</p>
-        <div class="social-title">
-            <div class="title">
-                <h3>Check Us On</h3>
-                <h2>Instagram</h2>
-                </div>
-                <span>@jacoborealtygroup</span>
-            </div>
+      <p class="social-p">Follow us on social media for the most exclusive real estate news and photos from our amazing listings</p>
+      <div class="social-title">
+        <div class="title">
+          <h3>Check Us On</h3>
+          <h2>Instagram</h2>
         </div>
-        <div class="social-gallery-image-container">
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-1.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-2.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-3.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-4.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-5.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-6.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-7.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-8.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-            <a href="[blogurl]" aria-label="social-image" class="social-image">
-            <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
-                class="canvas-img img-responsive lazyload"
-                src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-9.jpg">
-                <span class="ai-font-instagram"></span>
-            </div>
-            </a>
-        </div>
-        <a href="[blogurl]" class="site-btn" aria-label="Like Us On Instagram">Like Us On Instagram +</a>
+        <span>@jacoborealtygroup</span>
+      </div>
+      <div class="social-gallery-image-container">
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-1.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-2.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-3.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-4.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-5.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-6.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-7.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-8.jpg">
+          </div>
+        </a>
+        <a href="[blogurl]" aria-label="social-image" class="social-image">
+          <div class="social-item canvas-wrapper"> <canvas width="190" height="180"></canvas> <img alt="social-image"
+              class="canvas-img img-responsive lazyload"
+              src=" <?php echo get_stylesheet_directory_uri() ?>/images/social-insta-9.jpg">
+          </div>
+        </a>
+      </div>
+      <a href="[blogurl]" class="site-btn" aria-label="Like Us On Instagram">Follow Us On Instagram +</a>
     </div>
   </div>
+</div>
 </section>
 <!-- social end -->
 <!-- contact -->
