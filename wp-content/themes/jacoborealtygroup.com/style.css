@@ -512,7 +512,8 @@ header.header {
   top: 0;
   z-index: 4;
   width: 100%;
-  background: gray;
+  height: 100px;
+  background: rgba(77, 42, 72, .75);
 }
 
 header.header .navigation {
@@ -523,7 +524,7 @@ header.header .navigation {
 }
 
 .header-logo .header-img {
-  padding: 0 50px;
+  padding: 18px 42px;
 }
 
 .header #nav-primary-menu-container {
@@ -565,7 +566,7 @@ ul.aios-split-nav.nav.header-item {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 16px;
 }
 
 .comp-social-sidebar .side-smi a,
@@ -575,12 +576,12 @@ ul.aios-split-nav.nav.header-item {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 17px;
 
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 100%;
-  background: #ffc626;
+  background: #929292;
 
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -1563,3 +1564,86 @@ ul.aios-split-nav.nav.header-item {
 }
 
 /*#endregion Contact Region */
+
+
+footer.footer {
+  position: relative;
+  color: #fff;
+  padding: 72px 0 51px 0;
+}
+.footer-region-container {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 69px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 15px;
+  margin-bottom: 38px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+p.footer-outro {
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 0.050em;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: 300;
+}
+p.copyright {
+  text-align: center;
+  margin-bottom: 25px;
+}
+span.sitename {
+  color: #d7cabb;
+  font-weight: 700;
+}
+span.ai-font-envelope-f {
+  font-size: 11px;
+  margin-right: 7px;
+}
+.mls {
+  text-align: center;
+  font-size: 25px;
+  color: #d7cabb;
+}
+.footer .site-bg.site-rgba::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(77, 42, 72, .90);
+}
+.footernav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1135px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding: 13px 0px;
+  border-top: 1px solid;
+  margin-bottom: 35px;
+}
+.footer-contact-item span.ai-font-location-c {
+  margin-right: 6px;
+}
+.footer-contact-item span.ai-font-phone {
+  margin-right: 12px;
+}
