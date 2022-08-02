@@ -1,5 +1,5 @@
 /*
-Theme Name: isdtemplate.com
+Theme Name: jacoborealtygroup.com
 Description: AIOS mobile semi-custom theme.
 Author: AgentImage
 Author URI: http://www.agentimage.com
@@ -173,17 +173,18 @@ body {
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
-.site-title h3{
+.site-title h3 {
   font-size: 18px;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
   text-transform: uppercase;
   color: #171717;
 }
-.site-title h2{
+.site-title h2 {
   font-size: 70px;
   font-family: "Cardo", serif;
-  text-transform:uppercase ;
+  text-transform: uppercase;
   color: #351c50;
+  white-space: nowrap;
 }
 
 body.is-open {
@@ -305,11 +306,9 @@ canvas {
   color: #351c50;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
   border: 1px solid #4d2a48;
   border-radius: 4px;
   background: transparent;
-
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -321,7 +320,26 @@ canvas {
   background: #351c50;
   border: 1px solid #351c50;
 }
-
+.site-btn::before {
+  content: "";
+  position: absolute;
+  width: 51.9%;
+  height: 62%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: url(images/btn-logo.png);
+  background-size: cover;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.site-btn:hover::before {
+  opacity: 1;
+}
 /* Pojo */
 
 body #pojo-a11y-toolbar {
@@ -604,7 +622,9 @@ ul.aios-split-nav.nav.header-item {
 /*#endregion Slideshow Region */
 
 /*#region Quick Search Region */
-
+.hp-welcome-quick-search {
+  position: relative;
+}
 .hp-quick-search .site-bg canvas {
 }
 .hp-quick-search .site-bg-rgba::before {
@@ -617,7 +637,6 @@ ul.aios-split-nav.nav.header-item {
 }
 
 .hp-quick-search .region-quick-search-container {
-  background: #ffc000;
   padding: 50px 24px;
 }
 
@@ -626,7 +645,7 @@ ul.aios-split-nav.nav.header-item {
   font-weight: 300;
   font-size: 11px;
   letter-spacing: 0.05em;
-  color: #777777;
+  color: #fff;
   padding-left: 14px;
   height: 44px;
 
@@ -642,8 +661,8 @@ ul.aios-split-nav.nav.header-item {
 .quick-search-form select,
 .quick-search-form input:not([type="submit"]) {
   border: 0;
-
-  border: 1px solid #d0cece;
+  border: 2px solid #fff;
+  border-radius: 4px;
 }
 
 .hp-quick-search .quick-search-form select {
@@ -662,11 +681,14 @@ ul.aios-split-nav.nav.header-item {
 
 .quick-search-form .qs-btn input {
   width: 100%;
-  min-height: 60px;
+  min-height: 44px;
   letter-spacing: 0.1em;
   border: none;
   background: transparent;
-  border: 1px solid #6e6e6e;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -691,7 +713,23 @@ ul.aios-split-nav.nav.header-item {
   max-width: 1180px;
   margin: 0 auto;
 }
-
+.qs-item .site-btn {
+  min-height: 44px;
+}
+.hp-quick-search .site-bg::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(77, 42, 72, 0.85);
+  z-index: -1;
+}
+.hp-quick-search .site-bg canvas {
+  filter: grayscale(1);
+  z-index: -2;
+}
 /*#endregion Quick Search Region */
 
 /*#region Welcome Region */
@@ -701,19 +739,26 @@ ul.aios-split-nav.nav.header-item {
 .hp-welcome .site-bg-rgba::before {
   background: rgba(244, 244, 244, 0.84);
 }
-.hp-welcome .welcome-secondary-section p{
+.hp-welcome .welcome-secondary-section p {
   font-size: 15px;
   line-height: 28px;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
   color: #171717;
   margin-bottom: 25px;
 }
-.hp-welcome .welcome-secondary-section  .first-p{
+.hp-welcome .welcome-secondary-section .first-p {
   font-size: 16px;
   line-height: 32px;
   font-weight: 600;
 }
-
+.welcome-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: -53px;
+  z-index: -1;
+  width: 489px;
+  height: 642px;
+}
 /*#endregion Welcome Region */
 
 /*#region Team Region */
@@ -835,7 +880,7 @@ ul.aios-split-nav.nav.header-item {
 .hp-team .team-content p {
   font-size: 14px;
   color: #f4f4f4;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -849,7 +894,7 @@ ul.aios-split-nav.nav.header-item {
   left: 50%;
   transform: translateX(-50%);
   font-size: 13px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: 600;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -968,7 +1013,7 @@ ul.aios-split-nav.nav.header-item {
 .hp-properties .properties-img::before {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1044,22 +1089,21 @@ ul.aios-split-nav.nav.header-item {
   text-align: center;
   width: 100%;
 }
-.hp-properties .properties-content h3{
+.hp-properties .properties-content h3 {
   font-size: 30px;
   font-family: var(--ff-primary);
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
-.hp-properties .properties-content p{
+.hp-properties .properties-content p {
   font-size: 16px;
   margin-bottom: 17px;
 }
-.hp-properties .properties-content span{
+.hp-properties .properties-content span {
   font-size: 13px;
 }
-.hp-properties .properties-content .site-btn{
+.hp-properties .properties-content .site-btn {
   margin: 0 auto;
 }
-
 
 /*#endregion Properties Region */
 
@@ -1205,13 +1249,13 @@ ul.aios-split-nav.nav.header-item {
 }
 .hp-communities .communities-image:hover em {
   opacity: 0;
-} 
+}
 .hp-communities .canvas-img {
   border-radius: 15px;
 }
 .hp-communities .communities-image .hover-title {
   font-size: 32px;
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   opacity: 0;
   left: 50%;
   bottom: 56px;
@@ -1234,7 +1278,7 @@ ul.aios-split-nav.nav.header-item {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 700;
   color: #4d2a48;
@@ -1374,7 +1418,8 @@ ul.aios-split-nav.nav.header-item {
   justify-content: center;
   cursor: pointer;
   padding-bottom: 78px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 20px 25px 1px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 20px 25px 1px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   border-radius: 15px;
 }
 
@@ -1400,7 +1445,7 @@ ul.aios-split-nav.nav.header-item {
 .hp-testimonials .testimonials-content p {
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -1411,7 +1456,7 @@ ul.aios-split-nav.nav.header-item {
 }
 .hp-testimonials .testimonials-content h3 {
   font-size: 22px;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: var(--ff-primary);
   color: #351c50;
@@ -1572,7 +1617,7 @@ ul.aios-split-nav.nav.header-item {
 .hp-social .social-title h3 {
   font-size: 17px;
   color: #8f8f8f;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 .hp-social .social-title h2 {
@@ -1584,16 +1629,15 @@ ul.aios-split-nav.nav.header-item {
 .hp-social .social-title span {
   font-size: 18px;
   font-weight: 600;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   color: #351c50;
 }
 .hp-social .social-secondary-section .social-p {
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
 }
-
 
 /*#endregion Social Region */
 
