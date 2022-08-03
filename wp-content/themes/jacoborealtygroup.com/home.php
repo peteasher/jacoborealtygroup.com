@@ -781,6 +781,10 @@
     </div>
     <p>Sample</p>
     <div class="contact-form ">
+      <div class="site-title">
+        <h3>Get In Touch</h3>
+        <h2>Contact Us</h2>
+      </div>
       <?php echo do_shortcode('[contact-form-7 html_class="use-floating-validation-tip" id="34" title="hp template form 2"]')?>
     </div>
   </div>
