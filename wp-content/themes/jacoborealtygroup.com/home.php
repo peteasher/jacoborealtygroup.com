@@ -111,8 +111,13 @@
       </div>
       <div class="welcome-secondary-section">
         <div class="site-title">
-          <h3>Meet</h3>
-          <h2>Michael Jacobo</h2>
+          <div class="site-title-number">
+            02
+          </div>
+          <div class="site-title-holder">
+            <h3>Meet</h3>
+            <h2>Michael Jacobo</h2>
+          </div>
         </div>
         <p class="first-p">Michael Jacobo is the owner of the Jacobo Realty Group with Berkshire Hathaway Home Services.
           Michael has
@@ -147,8 +152,13 @@
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/testimonials-bg-logo.jpg"></canvas>
     </div>
     <div class="site-title">
-      <h3>Meet</h3>
-      <h2>The Team</h2>
+      <div class="site-title-number">
+        03
+      </div>
+      <div class="site-title-holder">
+        <h3>Meet</h3>
+        <h2>The Team</h2>
+      </div>
     </div>
     <div class="team-slick">
       <a href="[blogurl]" aria-label="team" class="team-item">
@@ -221,8 +231,13 @@
 <section class="hp-properties">
   <div class="region-properties-container">
     <div class="site-title">
-      <h3>Featured</h3>
-      <h2>Listings</h2>
+      <div class="site-title-number">
+        04
+      </div>
+      <div class="site-title-holder">
+        <h3>Featured</h3>
+        <h2>Listings</h2>
+      </div>
     </div>
     <div class="properties-slick">
       <a href="[blogurl]" aria-label="properties" class="properties-item">
@@ -319,8 +334,13 @@
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/communities-bg-1.jpg"></canvas>
     </div>
     <div class="site-title">
-      <h3>Featured</h3>
-      <h2>Communities</h2>
+      <div class="site-title-number">
+        05
+      </div>
+      <div class="site-title-holder">
+        <h3>Featured</h3>
+        <h2>Communities</h2>
+      </div>
     </div>
     <div class="communities-gallery-image-container">
       <a href="[blogurl]" aria-label="communities-image" class="communities-image">
@@ -430,8 +450,13 @@
 <section class="hp-videos">
   <div class="region-videos-container">
     <div class="site-title">
-      <h3>Featured</h3>
-      <h2>Video</h2>
+      <div class="site-title-number">
+        06
+      </div>
+      <div class="site-title-holder">
+        <h3>Featured</h3>
+        <h2>Video</h2>
+      </div>
     </div>
     <div class="videos-slick">
       <a href="[blogurl]" aria-label="videos" class="videos-item">
@@ -441,17 +466,17 @@
             src="<?php echo get_stylesheet_directory_uri() ?>/images/videos-1.jpg" />
         </div>
         <div class="videos-content">
-          <span class="ai-font-instagram"></span>
+          <span class="ai-font-play-button-a"></span>
         </div>
       </a>
       <a href="[blogurl]" aria-label="videos" class="videos-item">
         <div class="videos-img canvas-wrapper">
           <canvas width="1600px" height="600px"></canvas>
           <img alt="videos" class="img-videos canvas-img img-responsive lazyload"
-            src="<?php echo get_stylesheet_directory_uri() ?>/images/videos-2.jpg" />
+            src="<?php echo get_stylesheet_directory_uri() ?>/images/videos-1.jpg" />
         </div>
         <div class="videos-content">
-          <span class="ai-font-instagram"></span>
+          <span class="ai-font-play-button-a"></span>
         </div>
       </a>
     </div>
@@ -472,8 +497,13 @@
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/testimonials-bg.jpg"></canvas>
     </div>
     <div class="site-title">
-      <h3>What Our Clients Are Saying</h3>
-      <h2>Testimonials</h2>
+      <div class="site-title-number">
+        07
+      </div>
+      <div class="site-title-holder">
+        <h3>What Our Clients Are Saying</h3>
+        <h2>Testimonials</h2>
+      </div>
     </div>
     <div class="testimonials-slick">
       <div class="testimonials-content">
@@ -517,8 +547,13 @@
   <div class="region-social-container">
     <div class="social-primary-section">
       <div class="site-title">
-        <h3>Follow Us On</h3>
-        <h2>Social Media</h2>
+        <div class="site-title-number">
+          08
+        </div>
+        <div class="site-title-holder">
+          <h3>Follow Us On</h3>
+          <h2>Social Media</h2>
+        </div>
       </div>
       <div class="social-title">
         <div class="title">
@@ -720,8 +755,6 @@
     </div>
     <a href="[blogurl]" class="site-btn" aria-label="Like Us On Instagram">Like Us On Instagram +</a>
   </div>
-  </div>
-  </div>
 </section>
 <!-- social end -->
 <!-- contact -->
@@ -738,8 +771,13 @@
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/contact-bg.jpg"></canvas>
     </div>
     <div class="site-title">
-      <h3>Get In Touch</h3>
-      <h2>Contact Us</h2>
+      <div class="site-title-number">
+        09
+      </div>
+      <div class="site-title-holder">
+        <h3>Get In Touch</h3>
+        <h2>Contact Us</h2>
+      </div>
     </div>
     <p>Sample</p>
     <div class="contact-form ">

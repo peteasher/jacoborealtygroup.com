@@ -297,7 +297,10 @@ canvas {
 }
 
 /* Site Title */
-
+.site-title {
+  display: flex;
+  gap: 27px;
+}
 .site-title .secondary-text {
   font-family: var(--ff-primary);
   font-size: 22px;
@@ -314,7 +317,21 @@ canvas {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
-
+.site-title-number {
+  font-size: 18px;
+  color: #a0a0a0;
+  position: relative;
+}
+.site-title-number::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  top: 42%;
+  transform: translateY(-50%);
+  right: -15px;
+  background: #d9d1d6;
+}
 /* Site Btn Primary */
 .site-btn {
   position: relative;
@@ -753,6 +770,16 @@ ul.aios-split-nav.nav.header-item {
 .hp-quick-search .site-bg canvas {
   filter: grayscale(1);
   z-index: -2;
+}
+.qs-item.site-title h2,
+.qs-item.site-title h3 {
+  color: #fff;
+}
+.hp-quick-search .site-title-number {
+  color: #fff;
+}
+.hp-quick-search .site-title-number::before {
+  background: #fff;
 }
 /*#endregion Quick Search Region */
 
