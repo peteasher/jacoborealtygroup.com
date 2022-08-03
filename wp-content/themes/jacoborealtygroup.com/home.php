@@ -737,12 +737,11 @@
       <canvas class="lazyload" width="1616px" height="688px"
         data-bgset="<?php echo get_stylesheet_directory_uri(); ?>/images/contact-bg.jpg"></canvas>
     </div>
-    <div class="site-title">
-      <h3>Get In Touch</h3>
-      <h2>Contact Us</h2>
-    </div>
-    <p>Sample</p>
     <div class="contact-form ">
+      <div class="site-title">
+        <h3>Get In Touch</h3>
+        <h2>Contact Us</h2>
+      </div>
       <?php echo do_shortcode('[contact-form-7 html_class="use-floating-validation-tip" id="34" title="hp template form 2"]')?>
     </div>
   </div>
